@@ -158,6 +158,10 @@ part2
 /* ************************************
 part3
 ************************************ */
+.part3 {
+    padding-bottom: 128px;
+}
+
 .part3 .box {
     display: flex;
     align-items: center;
@@ -174,8 +178,9 @@ part3
     padding-left: 600px;
 }
 
-.part3 img {
+.part3 .project1 img {
     width: 100%;
+    height: 100%;
 }
 
 .part3 .card img {
@@ -184,6 +189,7 @@ part3
 
 .project1 {
     position: relative;
+    overflow: hidden;
 }
 
 .overly {
@@ -192,16 +198,24 @@ part3
     background-image: linear-gradient(to bottom right, rgba(28, 30, 83, .42), rgb(28, 30, 83));
     position: absolute;
     top: 0;
-    left: 0;
+    left: -50%;
     padding: 312px 51px;
+    transition: .5s;
+
 }
 
-.overly h3 {
+.project1:hover .overly {
+    left: 0;
+}
+
+.part3 .overly h3 {
     font-family: "Poppins", sans-serif;
     font-style: 24px;
     font-weight: 600;
     color: white;
-}.overly p{
+}
+
+.part3 .overly p {
     font-family: "Poppins", sans-serif;
     font-style: 16px;
     font-weight: 500;
@@ -209,13 +223,56 @@ part3
     color: #FFFFFF;
     padding-top: 16px;
 }
-.overly .button1 a{
-    color: yellow;
-    font-weight: 500;font-size: 16px;
-    font-family: "Poppins", sans-serif;
 
-    
+.part3 .overly .button1 a {
+    color: yellow;
+    font-weight: 500;
+    font-size: 16px;
+    font-family: "Poppins", sans-serif;
 }
+
+.part3 .card2 {
+    margin-top: 30px;
+}
+.part3 .over {
+    padding-top: 129px;padding-left: 56px;
+}
+.part3 .card1 {
+    position: relative;
+    overflow: hidden;
+}
+
+.part3 .card1 .over {
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(to bottom right, rgba(28, 30, 83, .42), rgb(28, 30, 83));
+    position: absolute;
+    top: 0;
+    left: -100%;
+    transition: .5s;
+
+}
+.part3 .card1:hover .over{
+    left: 0;
+}
+.part3 .over h3 {
+    font-size: 24px;
+    font-weight: 500;
+    font-family: "Poppins", sans-serif;
+    color: white;
+    width: 211px;
+}
+
+.part3 .over a {
+    font-size: 16px;
+    font-weight: 500;
+    font-family: "Poppins", sans-serif;
+    color: #FCD980;
+    width: 211px;
+margin-top: 0;
+    padding-top: 0px ;
+}
+
 
 /* ************************************
 part3
