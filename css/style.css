@@ -1,0 +1,222 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* ************************************ */
+/* ************************************ */
+.button a {
+    background: #FCD980;
+    color: black;
+    padding: 16px 48px;
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    border-radius: 40px;
+    border: 1px solid white;
+    transition: .4s;
+}
+
+.button a:hover {
+    background: transparent;
+    color: white;
+}
+
+/* ************************************ */
+/* ************************************ */
+h2 {
+    font-family: "Poppins", sans-serif;
+    font-size: 54px;
+    font-weight: 600;
+}
+
+p {
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    width: 560px;
+}
+
+/* ********************************** */
+.button1 a {
+    color: #FFFFFF;
+}
+
+.button1 a i {
+    padding-left: 0px;
+    transition: .4s;
+    opacity: 0;
+
+}
+
+.button1 a:hover i {
+    padding-left: 30px;
+    opacity: 1;
+
+}
+
+/* ************************************ 
+nav
+************************************ */
+nav {
+    background: #1C1E53;
+    align-items: center;
+    padding-top: 50px;
+
+}
+
+.navbar-brand {
+    padding: 32px 0;
+}
+
+nav ul {
+    align-items: center;
+}
+
+nav ul li a {
+    color: #BBBBCB !important;
+}
+
+nav ul li a:hover {
+    color: white !important;
+}
+
+nav .button a {
+    margin-left: 50px;
+}
+
+/* ************************************
+baner
+************************************ */
+.baner {
+    background: #1C1E53;
+    padding: 128px 0;
+}
+
+.baner p {
+    color: #FFFFFF;
+}
+
+.baner h2 {
+    color: white;
+}
+
+.button1 {
+    display: flex;
+}
+
+.button1 {
+    column-gap: 30px;
+}
+
+.baner p {
+    padding-top: 24px;
+    padding-bottom: 48px;
+}
+
+
+/* ************************************
+part2
+************************************ */
+.part2 {
+    padding: 128px 0;
+    background: #F4F6FC;
+}
+
+.part2 h2 {
+    font-size: 48px;
+}
+
+.part2 .button1 a {
+    color: #2405F2;
+}
+
+.part2 .werk p {
+    width: 405px;
+    padding: 16px 0;
+    color: #3e4050;
+}
+
+.part2 .card1 img {
+    width: 50px;
+}
+
+.part2 .card1 p {
+    width: 300px;
+    color: #3e4050;
+}
+
+.part2 .card1 h3 {
+    padding-top: 16px;
+    padding-bottom: 8px;
+}
+
+/* ************************************
+part3
+************************************ */
+.part3 .box {
+    display: flex;
+    align-items: center;
+    padding-bottom: 64px;
+    padding-top: 128px;
+}
+
+.part3 h2 {
+    font-style: 48px;
+}
+
+.part3 .button1 a {
+    color: black;
+    padding-left: 600px;
+}
+
+.part3 img {
+    width: 100%;
+}
+
+.part3 .card img {
+    width: 100%;
+}
+
+.project1 {
+    position: relative;
+}
+
+.overly {
+    width: 50%;
+    height: 100%;
+    background-image: linear-gradient(to bottom right, rgba(28, 30, 83, .42), rgb(28, 30, 83));
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 312px 51px;
+}
+
+.overly h3 {
+    font-family: "Poppins", sans-serif;
+    font-style: 24px;
+    font-weight: 600;
+    color: white;
+}.overly p{
+    font-family: "Poppins", sans-serif;
+    font-style: 16px;
+    font-weight: 500;
+    width: 311px;
+    color: #FFFFFF;
+    padding-top: 16px;
+}
+.overly .button1 a{
+    color: yellow;
+    font-weight: 500;font-size: 16px;
+    font-family: "Poppins", sans-serif;
+
+    
+}
+
+/* ************************************
+part3
+************************************ */
