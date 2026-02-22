@@ -41,6 +41,12 @@ p {
     width: 560px;
 }
 
+h4 {
+    font-family: "Poppins", sans-serif;
+    font-size: 48px;
+    font-weight: 600;
+}
+
 /* ********************************** */
 .button1 a {
     color: #FFFFFF;
@@ -116,6 +122,14 @@ baner
 .baner p {
     padding-top: 24px;
     padding-bottom: 48px;
+}
+
+.baner .button1 .button a {
+    color: black;
+}
+
+.baner .button1 .button a:hover {
+    color: white;
 }
 
 
@@ -234,9 +248,12 @@ part3
 .part3 .card2 {
     margin-top: 30px;
 }
+
 .part3 .over {
-    padding-top: 129px;padding-left: 56px;
+    padding-top: 129px;
+    padding-left: 56px;
 }
+
 .part3 .card1 {
     position: relative;
     overflow: hidden;
@@ -252,9 +269,11 @@ part3
     transition: .5s;
 
 }
-.part3 .card1:hover .over{
+
+.part3 .card1:hover .over {
     left: 0;
 }
+
 .part3 .over h3 {
     font-size: 24px;
     font-weight: 500;
@@ -269,11 +288,173 @@ part3
     font-family: "Poppins", sans-serif;
     color: #FCD980;
     width: 211px;
-margin-top: 0;
-    padding-top: 0px ;
+    margin-top: 0;
+    padding-top: 0px;
 }
 
+/* ************************************
+part4
+************************************ */
+.part4 {
+    background: #F4F6FC;
+    padding: 128px 0;
+
+}
+
+.part4 .Features p {
+    width: 100%;
+    text-align: center;
+
+}
+
+.part4 h4 {
+    width: 630px;
+    margin: 0 auto;
+    text-align: center;
+    padding-bottom: 40px;
+
+}
+
+.part4 .card {
+    padding: 58px 32px 48px 48px;
+    margin-top: 24px;
+    border: 1px solid transparent !important;
+    width: 100% !important;
+    box-shadow: 0px 0px 10px 5px rgba(99, 99, 99, .50);
+    top: 0;
+    transition: .5s;
+}
+
+.part4 .card:hover {
+    top: -10px;
+}
+
+.part4 .card .card-body {
+    padding: 0;
+
+}
+
+.part4 .card img {
+    width: 32px;
+}
+
+.part4 .card h5 {
+    font-size: 24px;
+    font-weight: 500;
+    font-family: "Poppins", sans-serif;
+    padding-top: 22px;
+    padding-bottom: 12px;
+}
+
+.part4 .card p {
+    width: 324px;
+}
 
 /* ************************************
-part3
+part5
+************************************ */
+.part5 {
+    padding: 128px 0;
+    background: #F4F6FC;
+}
+
+.part5 .col-lg-4 h5 {
+    font-size: 38px;
+    font-weight: 600;
+    font-family: "Poppins", sans-serif;
+    width: 325px;
+
+
+}
+
+.part5 .col-lg-4 p {
+    font-size: 16px;
+    font-weight: 500;
+    font-family: "Poppins", sans-serif;
+    width: 327px;
+    color: #5c5d6b;
+    padding-top: 16px;
+
+
+}
+
+.part5 .col-lg-8 h5 {
+    font-size: 32px;
+    font-weight: 600;
+    font-family: "Poppins", sans-serif;
+}
+
+.part5 .image {
+    width: 52px;
+    height: 52px;
+    border-radius: 40px;
+}
+
+.part5 .box {
+    display: flex;
+    column-gap: 14px;
+    padding-top: 48px;
+}
+
+.part5 .box h6 {
+    font-size: 18px;
+    font-weight: 500;
+    font-family: "Poppins", sans-serif;
+}
+
+.part5 .box p {
+    font-size: 12px;
+    font-weight: 500;
+    font-family: "Poppins", sans-serif;
+}
+
+/* ************************************
+part6
+************************************ */
+.part6{
+    padding-top: 52px;padding-bottom: 128px;
+}
+.part6 h3 {
+    font-size: 38px;
+    font-weight: 600;
+    font-family: "Poppins", sans-serif;
+    padding-bottom: 16px;
+}
+
+.part6 a {
+    color: #2405F2;
+    font-size: 18px;
+    font-weight: 500;
+    font-family: "Poppins", sans-serif;
+    
+} .part6 .accordion-button{
+    font-size: 24px;
+    font-weight: 500;
+    font-family: "Poppins", sans-serif;
+}
+.part6 .accordion-button samp{
+    font-size: 24px;
+    font-weight: 500;
+    font-family: "Poppins", sans-serif;
+    padding-right: 59px;
+}.part6 .accordion-body{
+    font-size: 18px;
+    font-weight: 500;
+    font-family: "Poppins", sans-serif;
+    padding-left: 105px;
+}
+.accordion-button:not(.collapsed)::after{
+   background-image: none !important;
+   transform: rotate(0); 
+   content:"x";
+    
+}
+.accordion-button::after{
+    background-image: none !important;
+    transform: rotate(0);
+    content:"+";
+}
+
+/* ************************************
+part7
 ************************************ */
