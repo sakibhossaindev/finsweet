@@ -458,3 +458,124 @@ part6
 /* ************************************
 part7
 ************************************ */
+.contact-us .contatc-content {
+    width: 100%;
+    height: 100%;
+    background-color: #1C1E53;
+}
+.contact-us img {
+    width: 100%;
+}
+.contact-us .row {
+--bs-gutter-x :0 !important;
+}
+.contact-us .contact-images .overly {
+    width: 100%;
+    height: 100%;
+    background-color:rgba(28, 30, 83,0.50);
+    position: absolute;
+    top: 0;
+    left: -100%;
+    padding-top: 201px;
+    padding-left: 123px;
+    transition: .5s;
+
+}
+.contact-us .contact-images  {
+    position: relative;
+    overflow: hidden;
+}
+.contact-us .contact-images .overly h2 {
+    color: rgba(255, 255, 255,1);
+     font-size: 54px;
+    font-weight: 600;
+     font-family: "Poppins", sans-serif;
+       width: 464px;
+}
+.contact-us .contact-images .overly p {
+       color: rgba(255, 255, 255,1);
+     font-size: 16px;
+    font-weight: 500;
+     font-family: "Poppins", sans-serif;
+     width: 464px;
+     margin-top: 24px;
+}
+.contact-us .contact-images:hover .overly {
+  left: 0;
+  overflow: visible;
+}
+.contact-us .contatc-content h4 {
+     font-size: 32px;
+    font-weight: 500;
+     font-family: "Poppins", sans-serif;
+     color: rgba(255, 255, 255,1);
+       margin-bottom : 0rem;
+
+}
+.contact-us .contatc-content p {
+     font-size: 16px;
+    font-weight: 500;
+     font-family: "Poppins", sans-serif;
+     color: rgba(255, 255, 255,1);
+  margin-bottom : 0rem;
+  margin-bottom: 40px;
+  margin-top: 16px;
+
+
+
+}
+.contact-us .contatc-content{
+    width: 100%;
+    height: 100%;
+    background-color: #1C1E53;
+    padding: 96px 96px 0px 96px;
+}
+.contact-us .contatc-content input {
+    width: 100%;
+    padding: 18px 32px;
+    background-color: transparent;
+    border: 1px solid rgba(255, 255, 255,0.05);
+    border-radius: 8px;
+    margin-bottom: 16px;
+    color: white;
+    font-size: 18px;
+}
+.contact-us .contatc-content input:nth-child(3){
+  
+    margin-bottom: 0px;
+}
+.contact-us .contatc-content input::placeholder {
+    color: rgba(244, 246, 252,1);
+    font-size: 16px;
+       font-weight: 400;
+     font-family: "Poppins", sans-serif;
+}
+.contact-us .contatc-content button {
+    background-color:rgba(252, 217, 128,1) ;
+    padding: 16px 0px;
+    width: 100%;
+    border-radius: 41px;
+     font-family: "Manrope", sans-serif;
+     font-size:18px ;
+     font-weight: 600;
+     color: rgba(27, 28, 43,1);
+     margin-top: 39px;
+     margin-bottom: 28px;
+     border: 1px solid white;
+     transition: .4s
+     ;
+}
+.contact-us .contatc-content .viewpricing-button {
+    color: white;
+}.contact-us .contatc-content .tittle {
+    text-align: center;
+}
+.contact-us .contatc-content button:hover{
+    background: transparent;
+    color: white;
+
+}
+.contatc-content .button1 {
+    padding-left: 170px;
+
+}
