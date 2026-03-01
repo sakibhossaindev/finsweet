@@ -189,7 +189,11 @@ part3
 
 .part3 .button1 a {
     color: black;
-
+    padding-left: 600px;
+}
+.part3 .button1 a {
+    color: black;
+    padding-left: 0 !important;
 }
 
 .part3 .project1 img {
